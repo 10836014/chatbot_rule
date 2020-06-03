@@ -6,7 +6,7 @@ based on the task's domain.
 """
 
 from .medicine import medicine
-from .other.weather import Weather
+# from .other.weather import Weather
 from .other.stock import Stock
 from .purchase import purchase
 from .entertainment import entertainment
@@ -22,8 +22,8 @@ class Switch(object):
 
         if domain == "病症":
             handler = medicine.MedicalListener(self.console)
-        elif domain=="天氣":
-            handler = Weather(self.console)
+        # elif domain=="天氣":
+        #    handler = Weather(self.console)
 
         elif domain=="股票":
             handler = Stock(self.console)

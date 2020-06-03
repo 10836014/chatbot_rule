@@ -6,7 +6,7 @@ import string
 import xml.etree.ElementTree as ET
 
 
-class Weather(object):
+''' class Weather(object):
 
 	def __init__(self, console):
 		self.console  = console
@@ -99,3 +99,4 @@ class Weather(object):
 			output = "out of range"
 		
 		return [None,output]
+'''
